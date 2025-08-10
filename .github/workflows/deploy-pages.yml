@@ -5,25 +5,21 @@ on:
     branches: [ main ]
   workflow_dispatch:
   schedule:
-    - cron: "20 14 * * *"  # ~7:20am LA time (PDT)
+    - cron: "20 14 * * *"   # daily
 
 permissions:
   contents: read
-  deployments: write   # <-- required for the Pages action to post a GitHub Deployment
+  deployments: write        # <-- required for pages-action to create a GitHub Deployment
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
 
       - name: Install deps
         run: |
@@ -33,12 +29,13 @@ jobs:
 
       - name: Build site
         run: |
-          if [ -f generator/generate.py ] ; then python generator/generate.py ; fi
+          if [ -f generator/generate.py ]; then python generator/generate.py; fi
           if [ -f dist/discover/index.html ]; then
             python generator/canonicalize.py --in dist/discover/index.html --out dist/discover/index.html || true
             python generator/make_og_images.py --discover dist/discover/index.html --out dist/og || true
           fi
           python generator/generate_sitemap.py --root dist --base https://tinytoolshub.pages.dev || true
+          find dist -maxdepth 2 -type f | head -n 50
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
@@ -47,4 +44,4 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
           directory: dist
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}   # now allowed by permissions above
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}   # now permitted
