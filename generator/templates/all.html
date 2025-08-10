@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="card">
+  <h1>All Tools</h1>
+  <p class="lede">Everything in one place. Filter with the search bar above.</p>
+</section>
+<section style="margin-top:16px">
+  <div class="grid">
+    {% for p in pages %}
+    <a class="card" href="{{ base_path }}{{ p['slug'] }}.html">
+      <strong data-search-item data-title="{{ p['title'] }}" data-cat="{{ p['category'] }}">{{ p['title'] }}</strong>
+      <small>{{ p['description'] }}</small>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,28 @@
+
+:root{
+  --bg:#0b0f14; --panel:#0e1522; --surface:#0b1320; --text:#eaf2ff; --muted:#9fb3c8; --brand:#7dd3fc; --accent:#a78bfa;
+  --border:#1b2433; --shadow:0 12px 36px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;font-family: ui-sans-serif,Inter,system-ui,-apple-system,Segoe UI,Roboto; background:radial-gradient(1200px 700px at 10% -20%, #0f1a2e 0%, var(--bg) 60%), radial-gradient(1200px 700px at 110% 120%, #0e1220 0%, var(--bg) 50%); color:var(--text)}
+a{color:#a6d6ff;text-decoration:none} a:hover{text-decoration:underline}
+.layout{display:grid; grid-template-columns:280px 1fr; gap:20px; max-width:1200px; margin:0 auto; padding:20px}
+aside{position:sticky; top:10px; height:max-content; background:linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02)); border:1px solid var(--border); border-radius:18px; padding:14px}
+aside h3{margin:.2rem 0 .6rem; font-size:1rem; opacity:.95}
+.sidebar-list{list-style:none; padding:0; margin:0}
+.sidebar-list li{margin:6px 0}
+.sidebar-list a{display:block; padding:8px 10px; border-radius:10px; border:1px solid transparent}
+.sidebar-list a:hover{background:#0f1628; border-color:#223147}
+header{position:sticky; top:0; backdrop-filter: blur(8px); background:linear-gradient(180deg, rgba(11,15,20,.9), rgba(11,15,20,.7)); border-bottom:1px solid var(--border); z-index:40}
+.header-inner{max-width:1200px; margin:0 auto; padding:10px 20px; display:flex; align-items:center; justify-content:space-between; gap:10px}
+.brand{font-weight:900; letter-spacing:.2px}
+.searchbar{display:flex; gap:8px; flex:1; max-width:560px}
+.searchbar input{flex:1; background:#0b1426; border:1px solid #223147; color:var(--text); border-radius:12px; padding:10px}
+.kbd{border:1px solid #24364f; border-radius:8px; padding:6px 8px; opacity:.8}
+.grid{display:grid; grid-template-columns:repeat(auto-fill, minmax(280px,1fr)); gap:16px}
+.card{background:linear-gradient(180deg, rgba(17,24,39,.5), rgba(13,19,31,.5)); border:1px solid var(--border); border-radius:18px; padding:16px; box-shadow:var(--shadow); transition:transform .08s ease, outline .08s ease; outline:1px solid transparent}
+.card:hover{transform:translateY(-2px); outline:1px solid rgba(125,211,252,.35)}
+.card small{opacity:.85}
+.lede{opacity:.95}
+footer{max-width:1200px; margin:0 auto; padding:20px; opacity:.85}

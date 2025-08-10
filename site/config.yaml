@@ -1,0 +1,14 @@
+site_name: TinyToolsHub
+cf_analytics_token: "e33cfb36c2b94a06969bfe9cfd91cd68"
+base_url: "https://tinytoolshub.pages.dev"
+author: AME
+adsense_client_id: "ca-pub-3998259748434177"
+amazon_tag: "8550006-20"  # e.g., yourtag-20
+
+build:
+  daily_new_pages: 30      # how many new pages to auto-generate per run
+  max_pages: 10000         # safety cap
+
+deploy:
+  provider: cloudflare_pages
+  project_name: tinytoolshub   # change later if you want

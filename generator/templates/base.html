@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }} | {{ site_name }}</title>
+  <meta name="description" content="{{ description }}">
+  {% if canonical_url %}<link rel="canonical" href="{{ canonical_url }}">{% endif %}
+  <meta property="og:title" content="{{ title }} | {{ site_name }}">
+  <meta property="og:description" content="{{ description }}">
+  <meta property="og:type" content="website">
+  {% if canonical_url %}<meta property="og:url" content="{{ canonical_url }}">{% endif %}
+  <meta name="twitter:card" content="summary">
+  {% if gsc_verification %}<meta name="google-site-verification" content="{{ gsc_verification }}">{% endif %}
+  <link rel="stylesheet" href="{{ base_path }}assets/style.css">
+  {% if adsense_client_id %}
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ adsense_client_id }}" crossorigin="anonymous"></script>
+  {% endif %}
+  {% if cf_analytics_token %}
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ cf_analytics_token }}"}'></script>
+  {% endif %}
+  <script defer src="{{ base_path }}assets/analytics-placeholder.js"></script>
+  <script defer src="{{ base_path }}assets/site.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <a class="brand" href="{{ base_path }}index.html">TinyToolsHub</a>
+      <div class="searchbar">
+        <input id="global-search" placeholder="Search tools… (Ctrl/⌘+K)">
+        <span class="kbd">Ctrl/⌘+K</span>
+      </div>
+      <nav>
+        <a href="{{ base_path }}discover.html">Discover</a>
+        <a href="{{ base_path }}all.html">All</a>
+        <a href="{{ base_path }}about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside>
+      <h3>Collections</h3>
+      <ul class="sidebar-list">
+        {% for cat in categories %}
+        <li><a href="{{ base_path }}discover.html#{{ cat | replace(' ', '-') }}">{{ cat }}</a></li>
+        {% endfor %}
+      </ul>
+      <h3 style="margin-top:12px">Popular</h3>
+      <ul class="sidebar-list">
+        {% for p in popular %}
+        <li><a href="{{ base_path }}{{ p['slug'] }}.html">{{ p['title'] }}</a></li>
+        {% endfor %}
+      </ul>
+    </aside>
+
+    <main>
+      {% block content %}{% endblock %}
+    </main>
+  </div>
+
+  <footer>
+    <p>© {{ year }} {{ site_name }} — Utility micro-apps & planners. As an Amazon Associate I earn from qualifying purchases.</p>
+  </footer>
+</body>
+</html>
