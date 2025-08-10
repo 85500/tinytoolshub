@@ -9,7 +9,7 @@ on:
 
 permissions:
   contents: read
-  deployments: write        # <-- required for pages-action to create a GitHub Deployment
+  deployments: write   # keep if you want the GitHub "Deployment" badge
 
 jobs:
   build-deploy:
@@ -35,16 +35,17 @@ jobs:
             python generator/make_og_images.py --discover dist/discover/index.html --out dist/og || true
           fi
           python generator/generate_sitemap.py --root dist --base https://tinytoolshub.pages.dev || true
-          find dist -maxdepth 2 -type f | head -n 50
 
-      - name: Deploy to Cloudflare Pages
+      - name: Deploy to Cloudflare Pages (PRODUCTION)
         uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
           directory: dist
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}   # now permitted
+          branch: main                    # <<-- this maps to "production"
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}   # optional; remove if you don't want the badge
+          
       - name: Ensure jq is available
         run: |
           sudo apt-get update -y
