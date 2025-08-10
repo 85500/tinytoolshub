@@ -1,0 +1,50 @@
+name: Build & Deploy (daily + on push)
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+  schedule:
+    # Runs daily at ~7:20am Los Angeles time (14:20 UTC during PDT).
+    - cron: "20 14 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f generator/requirements.txt ]; then pip install -r generator/requirements.txt || true; fi
+          pip install beautifulsoup4 lxml rapidfuzz pillow
+
+      - name: Build site
+        run: |
+          if [ -f generator/generate.py ]; then python generator/generate.py; fi
+          if [ -f dist/discover/index.html ]; then
+            python generator/canonicalize.py --in dist/discover/index.html --out dist/discover/index.html || true
+            python generator/make_og_images.py --discover dist/discover/index.html --out dist/og || true
+          fi
+          python generator/generate_sitemap.py --root dist --base https://tinytoolshub.pages.dev || true
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
+          directory: dist
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
