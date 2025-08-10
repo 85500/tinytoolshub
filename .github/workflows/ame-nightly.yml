@@ -1,0 +1,30 @@
+﻿name: AME Nightly Build & Deploy
+on:
+  schedule:
+    - cron: "10 10 * * *"   # 03:10 Los Angeles (UTC 10:10)
+  workflow_dispatch: {}
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install build deps
+        run: python -m pip install -r generator/requirements.txt
+      - name: Expand pages (if present)
+        run: |
+          if [ -f generator/expand.py ]; then python generator/expand.py; fi
+      - name: Generate site
+        run: python generator/generate.py
+      - name: Ensure ads.txt
+        run: echo "google.com, pub-3998259748434177, DIRECT, f08c47fec0942fa0" > dist/ads.txt
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: tinytoolshub
+          directory: dist
+          branch: main
