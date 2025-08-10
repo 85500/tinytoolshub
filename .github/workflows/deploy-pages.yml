@@ -5,11 +5,11 @@ on:
     branches: [ main ]
   workflow_dispatch:
   schedule:
-    # Runs daily at ~7:20am Los Angeles time (14:20 UTC during PDT).
-    - cron: "20 14 * * *"
+    - cron: "20 14 * * *"  # ~7:20am LA time (PDT)
 
 permissions:
   contents: read
+  deployments: write   # <-- required for the Pages action to post a GitHub Deployment
 
 jobs:
   build-deploy:
@@ -33,7 +33,7 @@ jobs:
 
       - name: Build site
         run: |
-          if [ -f generator/generate.py ]; then python generator/generate.py; fi
+          if [ -f generator/generate.py ] ; then python generator/generate.py ; fi
           if [ -f dist/discover/index.html ]; then
             python generator/canonicalize.py --in dist/discover/index.html --out dist/discover/index.html || true
             python generator/make_og_images.py --discover dist/discover/index.html --out dist/og || true
@@ -47,4 +47,4 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
           directory: dist
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}   # now allowed by permissions above
