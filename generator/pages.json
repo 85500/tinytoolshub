@@ -1,7 +1,7 @@
 [
   {
     "category": "Signature Apps",
-    "description": "Catch redirect loops, conflicting rules and chains before a website migration. Offline edition: $29 once, up to 20,000 rows.",
+    "description": "Catch redirect loops, conflicting rules and chains before a website migration. Complete review CSV free; optional downloadable offline edition: $29 once.",
     "h1": "Review your redirect map before developer handoff",
     "lede": "A local CSV preflight for technical SEOs and small agencies combining inherited and new migration redirects. Check structural problems, export a review report, and hand off candidate rules. Commercial disclosure: this product is sold by TinyToolsHub owner Jon Ireland.",
     "recommendations": [
@@ -23,7 +23,7 @@
     ],
     "slug": "redirect-preflight",
     "steps": [
-      "Check up to 20,000 rules free: all issue counts and 10 preview rows. Try full exports on the built-in example.",
+      "Check up to 20,000 rules free: all issue counts, 10 preview rows and a complete review CSV export. No signup.",
       "For larger maps, buy the offline edition for $29 once. Checkout returns a private download page after successful payment.",
       "Unzip the product on a computer and open Redirect-Preflight.html in a desktop browser.",
       "Set your old and new site origins, load up to 20,000 rules / 5 MB, review findings, and export reports.",
