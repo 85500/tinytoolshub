@@ -1,951 +1,989 @@
 [
   {
+    "slug": "redirect-preflight",
+    "title": "Redirect Preflight — Offline Redirect CSV Checker",
+    "description": "Catch redirect loops, conflicting rules and chains before a website migration. Offline edition: $29 once, up to 20,000 rows.",
+    "h1": "Review your redirect map before the move",
+    "lede": "A local CSV preflight for SEO and website migration teams. Check structural problems, export a review report, and hand off candidate rules. Commercial disclosure: this product is sold by TinyToolsHub owner Jon Ireland.",
+    "category": "Signature Apps",
+    "steps": [
+      "Try the free 25-row checker with a sample or your own CSV.",
+      "For larger maps, buy the offline edition for $29 once. Checkout returns a private download page after successful payment.",
+      "Unzip the product on a computer and open Redirect-Preflight.html in a desktop browser.",
+      "Set your old and new site origins, load up to 20,000 rules / 5 MB, review findings, and export reports.",
+      "Verify actual HTTP responses and destination relevance after deployment; CSV analysis cannot prove those results."
+    ],
+    "tips": [
+      "Your redirect CSV stays on your device. The checker does not upload client maps.",
+      "Conflicts, loops and invalid rules are excluded from candidate exports. Chains and unexpected origins require review.",
+      "Exact URLs and slash-prefixed paths are supported; wildcard rules and regex are not.",
+      "The license covers your business and client projects. No subscription or API credits. Full refund requests within 14 days; see the purchase terms."
+    ],
+    "recommendations": [
+      {
+        "name": "Buy the offline edition — $29 once",
+        "blurb": "Full HTML checker, sample CSV and instructions. Download after payment confirmation.",
+        "url": "https://buy.stripe.com/5kQaEXcXygjG7D984abfO00"
+      },
+      {
+        "name": "Try the free 25-row checker",
+        "blurb": "Check the workflow before buying. No account needed.",
+        "url": "https://redirect-preflight-ji.silver-pika-6542.chatgpt.site/"
+      },
+      {
+        "name": "Purchase terms and refund requests",
+        "blurb": "One-time software license; 14-day refund request policy.",
+        "url": "https://redirect-preflight-ji.silver-pika-6542.chatgpt.site/terms"
+      }
+    ]
+  },
+  {
+    "calc_title": "Convert units",
+    "calculator_component": "unit-converter",
+    "calculator_js": "unit-converter.js",
+    "category": "Home DIY Calculators",
+    "description": "Instantly convert between feet, meters, inches, and centimeters.",
+    "h1": "Feet ⇄ Meters Converter (and more)",
+    "lede": "Quickly convert imperial ↔ metric for DIY, travel, and work.",
+    "recommendations": [
+      {
+        "blurb": "Dual-scale with metric/imperial.",
+        "name": "All-in-one measuring tape",
+        "url": "https://www.amazon.com/s?k=dual+scale+measuring+tape"
+      },
+      {
+        "blurb": "Fast and precise measurements.",
+        "name": "Digital calipers",
+        "url": "https://www.amazon.com/s?k=digital+calipers"
+      }
+    ],
     "slug": "feet-to-meters-converter",
-    "title": "Feet \u21c4 Meters Converter",
-    "description": "Instantly convert between feet, meters, inches, and centimeters.",
-    "h1": "Feet \u21c4 Meters Converter (and more)",
-    "lede": "Quickly convert imperial \u2194 metric for DIY, travel, and work.",
     "steps": [
       "Enter a value.",
       "Choose the units to convert from and to.",
       "Click Convert."
     ],
-    "calculator_component": "unit-converter",
-    "calculator_js": "unit-converter.js",
-    "calc_title": "Convert units",
-    "category": "Home DIY Calculators",
     "tips": [
       "Round to practical precision for cutting materials.",
       "Double-check units on receipts and plans."
     ],
-    "recommendations": [
-      {
-        "name": "All-in-one measuring tape",
-        "blurb": "Dual-scale with metric/imperial.",
-        "url": "https://www.amazon.com/s?k=dual+scale+measuring+tape"
-      },
-      {
-        "name": "Digital calipers",
-        "blurb": "Fast and precise measurements.",
-        "url": "https://www.amazon.com/s?k=digital+calipers"
-      }
-    ]
+    "title": "Feet ⇄ Meters Converter"
   },
   {
+    "calc_title": "Estimate paint",
+    "calculator_component": "paint-estimator",
+    "calculator_js": "paint-estimator.js",
+    "category": "Home DIY Calculators",
+    "description": "Estimate gallons of paint required by area, coats, and coverage.",
+    "h1": "Paint Needed Calculator",
+    "lede": "Avoid extra trips—estimate paint before you buy.",
+    "recommendations": [
+      {
+        "blurb": "Fewer coats, better finish.",
+        "name": "High-coverage interior paint",
+        "url": "https://www.amazon.com/s?k=interior+paint"
+      },
+      {
+        "blurb": "Smoother application, less lint.",
+        "name": "Quality roller kit",
+        "url": "https://www.amazon.com/s?k=paint+roller+kit"
+      }
+    ],
     "slug": "paint-needed-calculator",
-    "title": "Paint Needed Calculator",
-    "description": "Estimate gallons of paint required by area, coats, and coverage.",
-    "h1": "Paint Needed Calculator",
-    "lede": "Avoid extra trips\u2014estimate paint before you buy.",
     "steps": [
       "Measure wall area in square feet.",
       "Select coats and coverage.",
       "Calculate to see gallons and cans."
     ],
-    "calculator_component": "paint-estimator",
-    "calculator_js": "paint-estimator.js",
-    "calc_title": "Estimate paint",
-    "category": "Home DIY Calculators",
     "tips": [
       "Add 10% for texture or rough walls.",
       "Primer may improve coverage and reduce coats."
     ],
-    "recommendations": [
-      {
-        "name": "High-coverage interior paint",
-        "blurb": "Fewer coats, better finish.",
-        "url": "https://www.amazon.com/s?k=interior+paint"
-      },
-      {
-        "name": "Quality roller kit",
-        "blurb": "Smoother application, less lint.",
-        "url": "https://www.amazon.com/s?k=paint+roller+kit"
-      }
-    ]
+    "title": "Paint Needed Calculator"
   },
   {
+    "calc_title": "Calculate board feet",
+    "calculator_component": "boardfeet-calc",
+    "calculator_js": "boardfeet-calc.js",
+    "category": "Shop & Woodworking",
+    "description": "Compute board feet from thickness, width, and length.",
+    "h1": "Board Feet Calculator",
+    "lede": "Plan lumber purchases accurately for your next build.",
+    "recommendations": [
+      {
+        "blurb": "Check wood before finishing.",
+        "name": "Moisture meter",
+        "url": "https://www.amazon.com/s?k=wood+moisture+meter"
+      },
+      {
+        "blurb": "Stronger, aligned joints.",
+        "name": "Joiner biscuits",
+        "url": "https://www.amazon.com/s?k=woodworking+biscuits"
+      }
+    ],
     "slug": "board-feet-calculator",
-    "title": "Board Feet Calculator",
-    "description": "Compute board feet from thickness, width, and length.",
-    "h1": "Board Feet Calculator",
-    "lede": "Plan lumber purchases accurately for your next build.",
     "steps": [
       "Measure thickness and width in inches.",
       "Measure length in feet.",
       "Click Calculate."
     ],
-    "calculator_component": "boardfeet-calc",
-    "calculator_js": "boardfeet-calc.js",
-    "calc_title": "Calculate board feet",
-    "category": "Shop & Woodworking",
     "tips": [
-      "Buy 10\u201315% extra to account for defects.",
+      "Buy 10–15% extra to account for defects.",
       "Confirm if seller bills by board feet or by piece."
     ],
-    "recommendations": [
-      {
-        "name": "Moisture meter",
-        "blurb": "Check wood before finishing.",
-        "url": "https://www.amazon.com/s?k=wood+moisture+meter"
-      },
-      {
-        "name": "Joiner biscuits",
-        "blurb": "Stronger, aligned joints.",
-        "url": "https://www.amazon.com/s?k=woodworking+biscuits"
-      }
-    ]
+    "title": "Board Feet Calculator"
   },
   {
-    "slug": "shipping-dimensional-weight",
-    "title": "Shipping Dimensional Weight Calculator",
+    "calc_title": "Compute DIM weight",
+    "calculator_component": "dim-weight",
+    "calculator_js": "dim-weight.js",
+    "category": "Travel & Shipping",
     "description": "Calculate billable weight for air or ground using divisors.",
     "h1": "Dimensional Weight (DIM) Calculator",
     "lede": "Estimate carrier-billed weight and avoid surprises.",
+    "recommendations": [
+      {
+        "blurb": "Accurate to 0.1 lb.",
+        "name": "Shipping scale",
+        "url": "https://www.amazon.com/s?k=shipping+scale"
+      },
+      {
+        "blurb": "Right size reduces DIM charges.",
+        "name": "Box variety pack",
+        "url": "https://www.amazon.com/s?k=shipping+boxes"
+      }
+    ],
+    "slug": "shipping-dimensional-weight",
     "steps": [
       "Enter package dimensions in inches.",
       "Pick divisor for air or ground.",
       "Compute billable dim weight."
     ],
-    "calculator_component": "dim-weight",
-    "calculator_js": "dim-weight.js",
-    "calc_title": "Compute DIM weight",
-    "category": "Travel & Shipping",
     "tips": [
       "Carriers round up to the next pound.",
       "Use the smallest box that protects your item."
     ],
-    "recommendations": [
-      {
-        "name": "Shipping scale",
-        "blurb": "Accurate to 0.1 lb.",
-        "url": "https://www.amazon.com/s?k=shipping+scale"
-      },
-      {
-        "name": "Box variety pack",
-        "blurb": "Right size reduces DIM charges.",
-        "url": "https://www.amazon.com/s?k=shipping+boxes"
-      }
-    ]
+    "title": "Shipping Dimensional Weight Calculator"
   },
   {
-    "slug": "bicycle-gear-inches",
-    "title": "Bicycle Gear Inches Calculator",
+    "calc_title": "Calculate gear inches",
+    "calculator_component": "gear-inches",
+    "calculator_js": "gear-inches.js",
+    "category": "PC & Tech Sizing",
     "description": "Compute gear inches from chainring, cog, and wheel size.",
     "h1": "Bicycle Gear Inches Calculator",
     "lede": "Compare setups and feel before you swap cogs.",
+    "recommendations": [
+      {
+        "blurb": "Swap cogs safely.",
+        "name": "Chain whip + lockring tool",
+        "url": "https://www.amazon.com/s?k=chain+whip+tool"
+      },
+      {
+        "blurb": "Match actual diameter.",
+        "name": "Tire size chart",
+        "url": "https://www.amazon.com/s?k=bike+tire+27+inch"
+      }
+    ],
+    "slug": "bicycle-gear-inches",
     "steps": [
       "Enter front and rear teeth count.",
       "Enter wheel diameter.",
       "Calculate gear inches."
     ],
-    "calculator_component": "gear-inches",
-    "calculator_js": "gear-inches.js",
-    "calc_title": "Calculate gear inches",
-    "category": "PC & Tech Sizing",
     "tips": [
       "Bigger gear inches = harder but faster.",
       "Try multiple cogs to match your terrain."
     ],
-    "recommendations": [
-      {
-        "name": "Chain whip + lockring tool",
-        "blurb": "Swap cogs safely.",
-        "url": "https://www.amazon.com/s?k=chain+whip+tool"
-      },
-      {
-        "name": "Tire size chart",
-        "blurb": "Match actual diameter.",
-        "url": "https://www.amazon.com/s?k=bike+tire+27+inch"
-      }
-    ]
+    "title": "Bicycle Gear Inches Calculator"
   },
   {
-    "slug": "room-ac-btu-calculator",
-    "title": "Room AC BTU Calculator",
+    "calc_title": "Estimate BTUs",
+    "calculator_component": "room-btu",
+    "calculator_js": "room-btu.js",
+    "category": "Home DIY Calculators",
     "description": "Estimate cooling capacity needed by room size and exposure.",
     "h1": "Room AC BTU Calculator",
-    "lede": "Right\u2011size your portable or window AC unit.",
+    "lede": "Right‑size your portable or window AC unit.",
+    "recommendations": [
+      {
+        "blurb": "Pick the right capacity.",
+        "name": "Portable AC units",
+        "url": "https://www.amazon.com/s?k=portable+air+conditioner"
+      },
+      {
+        "blurb": "Reduce heat gain.",
+        "name": "Insulating curtains",
+        "url": "https://www.amazon.com/s?k=thermal+curtains"
+      }
+    ],
+    "slug": "room-ac-btu-calculator",
     "steps": [
       "Measure the room area.",
       "Pick sun exposure.",
       "Estimate BTUs."
     ],
-    "calculator_component": "room-btu",
-    "calculator_js": "room-btu.js",
-    "calc_title": "Estimate BTUs",
-    "category": "Home DIY Calculators",
     "tips": [
       "High ceilings need more capacity.",
-      "South\u2011facing rooms get hotter in summer."
+      "South‑facing rooms get hotter in summer."
     ],
-    "recommendations": [
-      {
-        "name": "Portable AC units",
-        "blurb": "Pick the right capacity.",
-        "url": "https://www.amazon.com/s?k=portable+air+conditioner"
-      },
-      {
-        "name": "Insulating curtains",
-        "blurb": "Reduce heat gain.",
-        "url": "https://www.amazon.com/s?k=thermal+curtains"
-      }
-    ]
+    "title": "Room AC BTU Calculator"
   },
   {
-    "slug": "paint-needed-calculator-v1",
-    "title": "Paint Needed Calculator (v1)",
+    "calc_title": "Estimate paint",
+    "calculator_component": "paint-estimator",
+    "calculator_js": "paint-estimator.js",
+    "category": "Home DIY Calculators",
     "description": "Estimate gallons of paint required by area, coats, and coverage.",
     "h1": "Paint Needed Calculator",
-    "lede": "Avoid extra trips\u2014estimate paint before you buy.",
+    "lede": "Avoid extra trips—estimate paint before you buy.",
+    "recommendations": [
+      {
+        "blurb": "Fewer coats, better finish.",
+        "name": "High-coverage interior paint",
+        "url": "https://www.amazon.com/s?k=interior+paint"
+      },
+      {
+        "blurb": "Smoother application, less lint.",
+        "name": "Quality roller kit",
+        "url": "https://www.amazon.com/s?k=paint+roller+kit"
+      }
+    ],
+    "slug": "paint-needed-calculator-v1",
     "steps": [
       "Measure wall area in square feet.",
       "Select coats and coverage.",
       "Calculate to see gallons and cans."
     ],
-    "calculator_component": "paint-estimator",
-    "calculator_js": "paint-estimator.js",
-    "calc_title": "Estimate paint",
-    "category": "Home DIY Calculators",
     "tips": [
       "Add 10% for texture or rough walls.",
       "Primer may improve coverage and reduce coats."
     ],
-    "recommendations": [
-      {
-        "name": "High-coverage interior paint",
-        "blurb": "Fewer coats, better finish.",
-        "url": "https://www.amazon.com/s?k=interior+paint"
-      },
-      {
-        "name": "Quality roller kit",
-        "blurb": "Smoother application, less lint.",
-        "url": "https://www.amazon.com/s?k=paint+roller+kit"
-      }
-    ]
+    "title": "Paint Needed Calculator (v1)"
   },
   {
-    "slug": "board-feet-calculator-v2",
-    "title": "Board Feet Calculator (v2)",
+    "calc_title": "Calculate board feet",
+    "calculator_component": "boardfeet-calc",
+    "calculator_js": "boardfeet-calc.js",
+    "category": "Shop & Woodworking",
     "description": "Compute board feet from thickness, width, and length.",
     "h1": "Board Feet Calculator",
     "lede": "Plan lumber purchases accurately for your next build.",
+    "recommendations": [
+      {
+        "blurb": "Check wood before finishing.",
+        "name": "Moisture meter",
+        "url": "https://www.amazon.com/s?k=wood+moisture+meter"
+      },
+      {
+        "blurb": "Stronger, aligned joints.",
+        "name": "Joiner biscuits",
+        "url": "https://www.amazon.com/s?k=woodworking+biscuits"
+      }
+    ],
+    "slug": "board-feet-calculator-v2",
     "steps": [
       "Measure thickness and width in inches.",
       "Measure length in feet.",
       "Click Calculate."
     ],
-    "calculator_component": "boardfeet-calc",
-    "calculator_js": "boardfeet-calc.js",
-    "calc_title": "Calculate board feet",
-    "category": "Shop & Woodworking",
     "tips": [
-      "Buy 10\u201315% extra to account for defects.",
+      "Buy 10–15% extra to account for defects.",
       "Confirm if seller bills by board feet or by piece."
     ],
-    "recommendations": [
-      {
-        "name": "Moisture meter",
-        "blurb": "Check wood before finishing.",
-        "url": "https://www.amazon.com/s?k=wood+moisture+meter"
-      },
-      {
-        "name": "Joiner biscuits",
-        "blurb": "Stronger, aligned joints.",
-        "url": "https://www.amazon.com/s?k=woodworking+biscuits"
-      }
-    ]
+    "title": "Board Feet Calculator (v2)"
   },
   {
-    "slug": "shipping-dimensional-weight-v3",
-    "title": "Shipping Dimensional Weight Calculator (v3)",
+    "calc_title": "Compute DIM weight",
+    "calculator_component": "dim-weight",
+    "calculator_js": "dim-weight.js",
+    "category": "Travel & Shipping",
     "description": "Calculate billable weight for air or ground using divisors.",
     "h1": "Dimensional Weight (DIM) Calculator",
     "lede": "Estimate carrier-billed weight and avoid surprises.",
+    "recommendations": [
+      {
+        "blurb": "Accurate to 0.1 lb.",
+        "name": "Shipping scale",
+        "url": "https://www.amazon.com/s?k=shipping+scale"
+      },
+      {
+        "blurb": "Right size reduces DIM charges.",
+        "name": "Box variety pack",
+        "url": "https://www.amazon.com/s?k=shipping+boxes"
+      }
+    ],
+    "slug": "shipping-dimensional-weight-v3",
     "steps": [
       "Enter package dimensions in inches.",
       "Pick divisor for air or ground.",
       "Compute billable dim weight."
     ],
-    "calculator_component": "dim-weight",
-    "calculator_js": "dim-weight.js",
-    "calc_title": "Compute DIM weight",
-    "category": "Travel & Shipping",
     "tips": [
       "Carriers round up to the next pound.",
       "Use the smallest box that protects your item."
     ],
-    "recommendations": [
-      {
-        "name": "Shipping scale",
-        "blurb": "Accurate to 0.1 lb.",
-        "url": "https://www.amazon.com/s?k=shipping+scale"
-      },
-      {
-        "name": "Box variety pack",
-        "blurb": "Right size reduces DIM charges.",
-        "url": "https://www.amazon.com/s?k=shipping+boxes"
-      }
-    ]
+    "title": "Shipping Dimensional Weight Calculator (v3)"
   },
   {
-    "slug": "bicycle-gear-inches-v4",
-    "title": "Bicycle Gear Inches Calculator (v4)",
+    "calc_title": "Calculate gear inches",
+    "calculator_component": "gear-inches",
+    "calculator_js": "gear-inches.js",
+    "category": "PC & Tech Sizing",
     "description": "Compute gear inches from chainring, cog, and wheel size.",
     "h1": "Bicycle Gear Inches Calculator",
     "lede": "Compare setups and feel before you swap cogs.",
+    "recommendations": [
+      {
+        "blurb": "Swap cogs safely.",
+        "name": "Chain whip + lockring tool",
+        "url": "https://www.amazon.com/s?k=chain+whip+tool"
+      },
+      {
+        "blurb": "Match actual diameter.",
+        "name": "Tire size chart",
+        "url": "https://www.amazon.com/s?k=bike+tire+27+inch"
+      }
+    ],
+    "slug": "bicycle-gear-inches-v4",
     "steps": [
       "Enter front and rear teeth count.",
       "Enter wheel diameter.",
       "Calculate gear inches."
     ],
-    "calculator_component": "gear-inches",
-    "calculator_js": "gear-inches.js",
-    "calc_title": "Calculate gear inches",
-    "category": "PC & Tech Sizing",
     "tips": [
       "Bigger gear inches = harder but faster.",
       "Try multiple cogs to match your terrain."
     ],
-    "recommendations": [
-      {
-        "name": "Chain whip + lockring tool",
-        "blurb": "Swap cogs safely.",
-        "url": "https://www.amazon.com/s?k=chain+whip+tool"
-      },
-      {
-        "name": "Tire size chart",
-        "blurb": "Match actual diameter.",
-        "url": "https://www.amazon.com/s?k=bike+tire+27+inch"
-      }
-    ]
+    "title": "Bicycle Gear Inches Calculator (v4)"
   },
   {
-    "slug": "room-ac-btu-calculator-v5",
-    "title": "Room AC BTU Calculator (v5)",
+    "calc_title": "Estimate BTUs",
+    "calculator_component": "room-btu",
+    "calculator_js": "room-btu.js",
+    "category": "Home DIY Calculators",
     "description": "Estimate cooling capacity needed by room size and exposure.",
     "h1": "Room AC BTU Calculator",
-    "lede": "Right\u2011size your portable or window AC unit.",
+    "lede": "Right‑size your portable or window AC unit.",
+    "recommendations": [
+      {
+        "blurb": "Pick the right capacity.",
+        "name": "Portable AC units",
+        "url": "https://www.amazon.com/s?k=portable+air+conditioner"
+      },
+      {
+        "blurb": "Reduce heat gain.",
+        "name": "Insulating curtains",
+        "url": "https://www.amazon.com/s?k=thermal+curtains"
+      }
+    ],
+    "slug": "room-ac-btu-calculator-v5",
     "steps": [
       "Measure the room area.",
       "Pick sun exposure.",
       "Estimate BTUs."
     ],
-    "calculator_component": "room-btu",
-    "calculator_js": "room-btu.js",
-    "calc_title": "Estimate BTUs",
-    "category": "Home DIY Calculators",
     "tips": [
       "High ceilings need more capacity.",
-      "South\u2011facing rooms get hotter in summer."
+      "South‑facing rooms get hotter in summer."
     ],
-    "recommendations": [
-      {
-        "name": "Portable AC units",
-        "blurb": "Pick the right capacity.",
-        "url": "https://www.amazon.com/s?k=portable+air+conditioner"
-      },
-      {
-        "name": "Insulating curtains",
-        "blurb": "Reduce heat gain.",
-        "url": "https://www.amazon.com/s?k=thermal+curtains"
-      }
-    ]
+    "title": "Room AC BTU Calculator (v5)"
   },
   {
-    "slug": "feet-to-meters-converter-v6",
-    "title": "Feet \u21c4 Meters Converter (v6)",
+    "calc_title": "Convert units",
+    "calculator_component": "unit-converter",
+    "calculator_js": "unit-converter.js",
+    "category": "Home DIY Calculators",
     "description": "Instantly convert between feet, meters, inches, and centimeters.",
-    "h1": "Feet \u21c4 Meters Converter (and more)",
-    "lede": "Quickly convert imperial \u2194 metric for DIY, travel, and work.",
+    "h1": "Feet ⇄ Meters Converter (and more)",
+    "lede": "Quickly convert imperial ↔ metric for DIY, travel, and work.",
+    "recommendations": [
+      {
+        "blurb": "Dual-scale with metric/imperial.",
+        "name": "All-in-one measuring tape",
+        "url": "https://www.amazon.com/s?k=dual+scale+measuring+tape"
+      },
+      {
+        "blurb": "Fast and precise measurements.",
+        "name": "Digital calipers",
+        "url": "https://www.amazon.com/s?k=digital+calipers"
+      }
+    ],
+    "slug": "feet-to-meters-converter-v6",
     "steps": [
       "Enter a value.",
       "Choose the units to convert from and to.",
       "Click Convert."
     ],
-    "calculator_component": "unit-converter",
-    "calculator_js": "unit-converter.js",
-    "calc_title": "Convert units",
-    "category": "Home DIY Calculators",
     "tips": [
       "Round to practical precision for cutting materials.",
       "Double-check units on receipts and plans."
     ],
-    "recommendations": [
-      {
-        "name": "All-in-one measuring tape",
-        "blurb": "Dual-scale with metric/imperial.",
-        "url": "https://www.amazon.com/s?k=dual+scale+measuring+tape"
-      },
-      {
-        "name": "Digital calipers",
-        "blurb": "Fast and precise measurements.",
-        "url": "https://www.amazon.com/s?k=digital+calipers"
-      }
-    ]
+    "title": "Feet ⇄ Meters Converter (v6)"
   },
   {
-    "slug": "meters-to-feet-converter",
-    "title": "meters to feet Converter",
+    "calc_title": "Calculator",
+    "calculator_component": "unit-converter",
+    "calculator_js": "unit-converter.js",
+    "category": "Home DIY Calculators",
     "description": "Quick utility for meters to feet converter.",
     "h1": "meters to feet Converter",
     "lede": "Quick utility for meters to feet converter.",
+    "recommendations": [
+      {
+        "blurb": "Imperial/metric tape.",
+        "name": "Dual-scale tape",
+        "url": "https://www.amazon.com/s?k=dual+scale+measuring+tape"
+      }
+    ],
+    "slug": "meters-to-feet-converter",
     "steps": [
       "Enter your values.",
       "Click calculate.",
       "Use the tips to improve accuracy."
     ],
-    "calculator_component": "unit-converter",
-    "calculator_js": "unit-converter.js",
-    "calc_title": "Calculator",
-    "category": "Home DIY Calculators",
     "tips": [
       "Round to practical precision.",
       "Double-check units before cutting."
     ],
-    "recommendations": [
-      {
-        "name": "Dual-scale tape",
-        "blurb": "Imperial/metric tape.",
-        "url": "https://www.amazon.com/s?k=dual+scale+measuring+tape"
-      }
-    ]
+    "title": "meters to feet Converter"
   },
   {
-    "slug": "inches-to-centimeters-converter",
-    "title": "inches to centimeters Converter",
+    "calc_title": "Calculator",
+    "calculator_component": "unit-converter",
+    "calculator_js": "unit-converter.js",
+    "category": "Home DIY Calculators",
     "description": "Quick utility for inches to centimeters converter.",
     "h1": "inches to centimeters Converter",
     "lede": "Quick utility for inches to centimeters converter.",
+    "recommendations": [
+      {
+        "blurb": "Imperial/metric tape.",
+        "name": "Dual-scale tape",
+        "url": "https://www.amazon.com/s?k=dual+scale+measuring+tape"
+      }
+    ],
+    "slug": "inches-to-centimeters-converter",
     "steps": [
       "Enter your values.",
       "Click calculate.",
       "Use the tips to improve accuracy."
     ],
-    "calculator_component": "unit-converter",
-    "calculator_js": "unit-converter.js",
-    "calc_title": "Calculator",
-    "category": "Home DIY Calculators",
     "tips": [
       "Round to practical precision.",
       "Double-check units before cutting."
     ],
-    "recommendations": [
-      {
-        "name": "Dual-scale tape",
-        "blurb": "Imperial/metric tape.",
-        "url": "https://www.amazon.com/s?k=dual+scale+measuring+tape"
-      }
-    ]
+    "title": "inches to centimeters Converter"
   },
   {
-    "slug": "centimeters-to-inches-converter",
-    "title": "centimeters to inches Converter",
+    "calc_title": "Calculator",
+    "calculator_component": "unit-converter",
+    "calculator_js": "unit-converter.js",
+    "category": "Home DIY Calculators",
     "description": "Quick utility for centimeters to inches converter.",
     "h1": "centimeters to inches Converter",
     "lede": "Quick utility for centimeters to inches converter.",
+    "recommendations": [
+      {
+        "blurb": "Imperial/metric tape.",
+        "name": "Dual-scale tape",
+        "url": "https://www.amazon.com/s?k=dual+scale+measuring+tape"
+      }
+    ],
+    "slug": "centimeters-to-inches-converter",
     "steps": [
       "Enter your values.",
       "Click calculate.",
       "Use the tips to improve accuracy."
     ],
-    "calculator_component": "unit-converter",
-    "calculator_js": "unit-converter.js",
-    "calc_title": "Calculator",
-    "category": "Home DIY Calculators",
     "tips": [
       "Round to practical precision.",
       "Double-check units before cutting."
     ],
-    "recommendations": [
-      {
-        "name": "Dual-scale tape",
-        "blurb": "Imperial/metric tape.",
-        "url": "https://www.amazon.com/s?k=dual+scale+measuring+tape"
-      }
-    ]
+    "title": "centimeters to inches Converter"
   },
   {
-    "slug": "board-feet-calculator-2in-x-6in-x-8ft",
-    "title": "Board Feet Calculator (2in x 6in x 8ft)",
+    "calc_title": "Calculator",
+    "calculator_component": "boardfeet-calc",
+    "calculator_js": "boardfeet-calc.js",
+    "category": "Shop & Woodworking",
     "description": "Quick utility for board feet calculator (2in x 6in x 8ft).",
     "h1": "Board Feet Calculator (2in x 6in x 8ft)",
     "lede": "Quick utility for board feet calculator (2in x 6in x 8ft).",
+    "recommendations": [
+      {
+        "blurb": "Check before finishing.",
+        "name": "Moisture meter",
+        "url": "https://www.amazon.com/s?k=wood+moisture+meter"
+      }
+    ],
+    "slug": "board-feet-calculator-2in-x-6in-x-8ft",
     "steps": [
       "Enter your values.",
       "Click calculate.",
       "Use the tips to improve accuracy."
     ],
-    "calculator_component": "boardfeet-calc",
-    "calculator_js": "boardfeet-calc.js",
-    "calc_title": "Calculator",
-    "category": "Shop & Woodworking",
     "tips": [
-      "Buy 10\u201315% extra for waste.",
-      "Confirm seller\u2019s rounding rules."
+      "Buy 10–15% extra for waste.",
+      "Confirm seller’s rounding rules."
     ],
-    "recommendations": [
-      {
-        "name": "Moisture meter",
-        "blurb": "Check before finishing.",
-        "url": "https://www.amazon.com/s?k=wood+moisture+meter"
-      }
-    ]
+    "title": "Board Feet Calculator (2in x 6in x 8ft)"
   },
   {
-    "slug": "board-feet-calculator-1in-x-4in-x-8ft",
-    "title": "Board Feet Calculator (1in x 4in x 8ft)",
+    "calc_title": "Calculator",
+    "calculator_component": "boardfeet-calc",
+    "calculator_js": "boardfeet-calc.js",
+    "category": "Shop & Woodworking",
     "description": "Quick utility for board feet calculator (1in x 4in x 8ft).",
     "h1": "Board Feet Calculator (1in x 4in x 8ft)",
     "lede": "Quick utility for board feet calculator (1in x 4in x 8ft).",
+    "recommendations": [
+      {
+        "blurb": "Check before finishing.",
+        "name": "Moisture meter",
+        "url": "https://www.amazon.com/s?k=wood+moisture+meter"
+      }
+    ],
+    "slug": "board-feet-calculator-1in-x-4in-x-8ft",
     "steps": [
       "Enter your values.",
       "Click calculate.",
       "Use the tips to improve accuracy."
     ],
-    "calculator_component": "boardfeet-calc",
-    "calculator_js": "boardfeet-calc.js",
-    "calc_title": "Calculator",
-    "category": "Shop & Woodworking",
     "tips": [
-      "Buy 10\u201315% extra for waste.",
-      "Confirm seller\u2019s rounding rules."
+      "Buy 10–15% extra for waste.",
+      "Confirm seller’s rounding rules."
     ],
-    "recommendations": [
-      {
-        "name": "Moisture meter",
-        "blurb": "Check before finishing.",
-        "url": "https://www.amazon.com/s?k=wood+moisture+meter"
-      }
-    ]
+    "title": "Board Feet Calculator (1in x 4in x 8ft)"
   },
   {
-    "slug": "board-feet-calculator-1in-x-6in-x-10ft",
-    "title": "Board Feet Calculator (1in x 6in x 10ft)",
+    "calc_title": "Calculator",
+    "calculator_component": "boardfeet-calc",
+    "calculator_js": "boardfeet-calc.js",
+    "category": "Shop & Woodworking",
     "description": "Quick utility for board feet calculator (1in x 6in x 10ft).",
     "h1": "Board Feet Calculator (1in x 6in x 10ft)",
     "lede": "Quick utility for board feet calculator (1in x 6in x 10ft).",
+    "recommendations": [
+      {
+        "blurb": "Check before finishing.",
+        "name": "Moisture meter",
+        "url": "https://www.amazon.com/s?k=wood+moisture+meter"
+      }
+    ],
+    "slug": "board-feet-calculator-1in-x-6in-x-10ft",
     "steps": [
       "Enter your values.",
       "Click calculate.",
       "Use the tips to improve accuracy."
     ],
-    "calculator_component": "boardfeet-calc",
-    "calculator_js": "boardfeet-calc.js",
-    "calc_title": "Calculator",
-    "category": "Shop & Woodworking",
     "tips": [
-      "Buy 10\u201315% extra for waste.",
-      "Confirm seller\u2019s rounding rules."
+      "Buy 10–15% extra for waste.",
+      "Confirm seller’s rounding rules."
     ],
-    "recommendations": [
-      {
-        "name": "Moisture meter",
-        "blurb": "Check before finishing.",
-        "url": "https://www.amazon.com/s?k=wood+moisture+meter"
-      }
-    ]
+    "title": "Board Feet Calculator (1in x 6in x 10ft)"
   },
   {
-    "slug": "board-feet-calculator-1in-x-8in-x-6ft",
-    "title": "Board Feet Calculator (1in x 8in x 6ft)",
+    "calc_title": "Calculator",
+    "calculator_component": "boardfeet-calc",
+    "calculator_js": "boardfeet-calc.js",
+    "category": "Shop & Woodworking",
     "description": "Quick utility for board feet calculator (1in x 8in x 6ft).",
     "h1": "Board Feet Calculator (1in x 8in x 6ft)",
     "lede": "Quick utility for board feet calculator (1in x 8in x 6ft).",
+    "recommendations": [
+      {
+        "blurb": "Check before finishing.",
+        "name": "Moisture meter",
+        "url": "https://www.amazon.com/s?k=wood+moisture+meter"
+      }
+    ],
+    "slug": "board-feet-calculator-1in-x-8in-x-6ft",
     "steps": [
       "Enter your values.",
       "Click calculate.",
       "Use the tips to improve accuracy."
     ],
-    "calculator_component": "boardfeet-calc",
-    "calculator_js": "boardfeet-calc.js",
-    "calc_title": "Calculator",
-    "category": "Shop & Woodworking",
     "tips": [
-      "Buy 10\u201315% extra for waste.",
-      "Confirm seller\u2019s rounding rules."
+      "Buy 10–15% extra for waste.",
+      "Confirm seller’s rounding rules."
     ],
-    "recommendations": [
-      {
-        "name": "Moisture meter",
-        "blurb": "Check before finishing.",
-        "url": "https://www.amazon.com/s?k=wood+moisture+meter"
-      }
-    ]
+    "title": "Board Feet Calculator (1in x 8in x 6ft)"
   },
   {
-    "slug": "filament-length-from-spool-weight-1-75mm-petg",
-    "title": "Filament Length from Spool Weight (1.75mm, PETG)",
+    "calc_title": "Calculator",
+    "calculator_component": "filament-estimator",
+    "calculator_js": "filament-estimator.js",
+    "category": "3D Printing & Maker",
     "description": "Quick utility for filament length from spool weight (1.75mm, petg).",
     "h1": "Filament Length from Spool Weight (1.75mm, PETG)",
     "lede": "Quick utility for filament length from spool weight (1.75mm, petg).",
+    "recommendations": [
+      {
+        "blurb": "Weigh spools precisely.",
+        "name": "Digital scale",
+        "url": "https://www.amazon.com/s?k=0.1g+digital+scale"
+      }
+    ],
+    "slug": "filament-length-from-spool-weight-1-75mm-petg",
     "steps": [
       "Enter your values.",
       "Click calculate.",
       "Use the tips to improve accuracy."
     ],
-    "calculator_component": "filament-estimator",
-    "calculator_js": "filament-estimator.js",
-    "calc_title": "Calculator",
-    "category": "3D Printing & Maker",
     "tips": [
       "Density varies by material and brand.",
       "Weigh an empty spool for accuracy."
     ],
-    "recommendations": [
-      {
-        "name": "Digital scale",
-        "blurb": "Weigh spools precisely.",
-        "url": "https://www.amazon.com/s?k=0.1g+digital+scale"
-      }
-    ]
+    "title": "Filament Length from Spool Weight (1.75mm, PETG)"
   },
   {
-    "slug": "filament-length-from-spool-weight-2-85mm-pla",
-    "title": "Filament Length from Spool Weight (2.85mm, PLA)",
+    "calc_title": "Calculator",
+    "calculator_component": "filament-estimator",
+    "calculator_js": "filament-estimator.js",
+    "category": "3D Printing & Maker",
     "description": "Quick utility for filament length from spool weight (2.85mm, pla).",
     "h1": "Filament Length from Spool Weight (2.85mm, PLA)",
     "lede": "Quick utility for filament length from spool weight (2.85mm, pla).",
+    "recommendations": [
+      {
+        "blurb": "Weigh spools precisely.",
+        "name": "Digital scale",
+        "url": "https://www.amazon.com/s?k=0.1g+digital+scale"
+      }
+    ],
+    "slug": "filament-length-from-spool-weight-2-85mm-pla",
     "steps": [
       "Enter your values.",
       "Click calculate.",
       "Use the tips to improve accuracy."
     ],
-    "calculator_component": "filament-estimator",
-    "calculator_js": "filament-estimator.js",
-    "calc_title": "Calculator",
-    "category": "3D Printing & Maker",
     "tips": [
       "Density varies by material and brand.",
       "Weigh an empty spool for accuracy."
     ],
-    "recommendations": [
-      {
-        "name": "Digital scale",
-        "blurb": "Weigh spools precisely.",
-        "url": "https://www.amazon.com/s?k=0.1g+digital+scale"
-      }
-    ]
+    "title": "Filament Length from Spool Weight (2.85mm, PLA)"
   },
   {
-    "slug": "filament-length-from-spool-weight-1-75mm-pla",
-    "title": "Filament Length from Spool Weight (1.75mm, PLA)",
+    "calc_title": "Calculator",
+    "calculator_component": "filament-estimator",
+    "calculator_js": "filament-estimator.js",
+    "category": "3D Printing & Maker",
     "description": "Quick utility for filament length from spool weight (1.75mm, pla).",
     "h1": "Filament Length from Spool Weight (1.75mm, PLA)",
     "lede": "Quick utility for filament length from spool weight (1.75mm, pla).",
+    "recommendations": [
+      {
+        "blurb": "Weigh spools precisely.",
+        "name": "Digital scale",
+        "url": "https://www.amazon.com/s?k=0.1g+digital+scale"
+      }
+    ],
+    "slug": "filament-length-from-spool-weight-1-75mm-pla",
     "steps": [
       "Enter your values.",
       "Click calculate.",
       "Use the tips to improve accuracy."
     ],
-    "calculator_component": "filament-estimator",
-    "calculator_js": "filament-estimator.js",
-    "calc_title": "Calculator",
-    "category": "3D Printing & Maker",
     "tips": [
       "Density varies by material and brand.",
       "Weigh an empty spool for accuracy."
     ],
-    "recommendations": [
-      {
-        "name": "Digital scale",
-        "blurb": "Weigh spools precisely.",
-        "url": "https://www.amazon.com/s?k=0.1g+digital+scale"
-      }
-    ]
+    "title": "Filament Length from Spool Weight (1.75mm, PLA)"
   },
   {
-    "slug": "dimensional-weight-calculator-ground-166-divisor",
-    "title": "Dimensional Weight Calculator (Ground (166 divisor))",
+    "calc_title": "Calculator",
+    "calculator_component": "dim-weight",
+    "calculator_js": "dim-weight.js",
+    "category": "Travel & Shipping",
     "description": "Quick utility for dimensional weight calculator (ground (166 divisor)).",
     "h1": "Dimensional Weight Calculator (Ground (166 divisor))",
     "lede": "Quick utility for dimensional weight calculator (ground (166 divisor)).",
+    "recommendations": [
+      {
+        "blurb": "Accurate to 0.1 lb.",
+        "name": "Shipping scale",
+        "url": "https://www.amazon.com/s?k=shipping+scale"
+      }
+    ],
+    "slug": "dimensional-weight-calculator-ground-166-divisor",
     "steps": [
       "Enter your values.",
       "Click calculate.",
       "Use the tips to improve accuracy."
     ],
-    "calculator_component": "dim-weight",
-    "calculator_js": "dim-weight.js",
-    "calc_title": "Calculator",
-    "category": "Travel & Shipping",
     "tips": [
       "Carriers round up to the next pound.",
       "Use the smallest protective box."
     ],
-    "recommendations": [
-      {
-        "name": "Shipping scale",
-        "blurb": "Accurate to 0.1 lb.",
-        "url": "https://www.amazon.com/s?k=shipping+scale"
-      }
-    ]
+    "title": "Dimensional Weight Calculator (Ground (166 divisor))"
   },
   {
-    "slug": "dimensional-weight-calculator-air-139-divisor",
-    "title": "Dimensional Weight Calculator (Air (139 divisor))",
+    "calc_title": "Calculator",
+    "calculator_component": "dim-weight",
+    "calculator_js": "dim-weight.js",
+    "category": "Travel & Shipping",
     "description": "Quick utility for dimensional weight calculator (air (139 divisor)).",
     "h1": "Dimensional Weight Calculator (Air (139 divisor))",
     "lede": "Quick utility for dimensional weight calculator (air (139 divisor)).",
+    "recommendations": [
+      {
+        "blurb": "Accurate to 0.1 lb.",
+        "name": "Shipping scale",
+        "url": "https://www.amazon.com/s?k=shipping+scale"
+      }
+    ],
+    "slug": "dimensional-weight-calculator-air-139-divisor",
     "steps": [
       "Enter your values.",
       "Click calculate.",
       "Use the tips to improve accuracy."
     ],
-    "calculator_component": "dim-weight",
-    "calculator_js": "dim-weight.js",
-    "calc_title": "Calculator",
-    "category": "Travel & Shipping",
     "tips": [
       "Carriers round up to the next pound.",
       "Use the smallest protective box."
     ],
-    "recommendations": [
-      {
-        "name": "Shipping scale",
-        "blurb": "Accurate to 0.1 lb.",
-        "url": "https://www.amazon.com/s?k=shipping+scale"
-      }
-    ]
+    "title": "Dimensional Weight Calculator (Air (139 divisor))"
   },
   {
-    "slug": "percent-calculator-for-discounts-and-markups",
-    "title": "Percent Calculator for Discounts & Markups",
+    "calc_title": "Calculator",
+    "calculator_component": "percent-calc",
+    "calculator_js": "percent-calc.js",
+    "category": "Photography & Video",
     "description": "Quick utility for percent calculator for discounts & markups.",
     "h1": "Percent Calculator for Discounts & Markups",
     "lede": "Quick utility for percent calculator for discounts & markups.",
+    "recommendations": [
+      {
+        "blurb": "Jot settings & scenes.",
+        "name": "Notebook",
+        "url": "https://www.amazon.com/s?k=pocket+notebook"
+      }
+    ],
+    "slug": "percent-calculator-for-discounts-and-markups",
     "steps": [
       "Enter your values.",
       "Click calculate.",
       "Use the tips to improve accuracy."
     ],
-    "calculator_component": "percent-calc",
-    "calculator_js": "percent-calc.js",
-    "calc_title": "Calculator",
-    "category": "Photography & Video",
     "tips": [
       "For exposure math, keep a notebook of your common scenes.",
       "Double-check before committing settings."
     ],
-    "recommendations": [
-      {
-        "name": "Notebook",
-        "blurb": "Jot settings & scenes.",
-        "url": "https://www.amazon.com/s?k=pocket+notebook"
-      }
-    ]
+    "title": "Percent Calculator for Discounts & Markups"
   },
   {
-    "slug": "cut-list-optimizer",
-    "title": "Cut\u2011List Optimizer (1D)",
-    "description": "Best\u2011fit cut plan for lumber with kerf and waste.",
-    "h1": "Cut\u2011List Optimizer",
+    "calc_title": "Optimize cut list",
+    "calculator_component": "cutlist-optimizer",
+    "calculator_js": "cutlist-optimizer.js",
+    "category": "Pro Tools",
+    "description": "Best‑fit cut plan for lumber with kerf and waste.",
+    "h1": "Cut‑List Optimizer",
     "lede": "Enter stock length, kerf, and required cuts to minimize waste.",
+    "recommendations": [
+      {
+        "blurb": "Thin‑kerf for less waste.",
+        "name": "Rip‑cut blade",
+        "url": "https://www.amazon.com/s?k=thin+kerf+saw+blade"
+      },
+      {
+        "blurb": "Repeatable lengths.",
+        "name": "Stop block",
+        "url": "https://www.amazon.com/s?k=table+saw+stop+block"
+      }
+    ],
+    "slug": "cut-list-optimizer",
     "steps": [
       "Enter stock length and kerf.",
       "Paste your required cuts, one per line.",
       "Click Optimize to get boards and waste."
     ],
-    "calculator_component": "cutlist-optimizer",
-    "calculator_js": "cutlist-optimizer.js",
-    "calc_title": "Optimize cut list",
-    "category": "Pro Tools",
     "tips": [
-      "Add 5\u201310% contingency for defects.",
+      "Add 5–10% contingency for defects.",
       "Group similar cuts to reduce setup time."
     ],
-    "recommendations": [
-      {
-        "name": "Rip\u2011cut blade",
-        "blurb": "Thin\u2011kerf for less waste.",
-        "url": "https://www.amazon.com/s?k=thin+kerf+saw+blade"
-      },
-      {
-        "name": "Stop block",
-        "blurb": "Repeatable lengths.",
-        "url": "https://www.amazon.com/s?k=table+saw+stop+block"
-      }
-    ]
+    "title": "Cut‑List Optimizer (1D)"
   },
   {
-    "slug": "box-fit-rotation-planner",
-    "title": "Box\u2011Fit & Rotation Planner",
+    "calc_title": "Find best box",
+    "calculator_component": "boxfit-planner",
+    "calculator_js": "boxfit-planner.js",
+    "category": "Pro Tools",
     "description": "Find which boxes fit and compute DIM weight.",
-    "h1": "Box\u2011Fit & Rotation Planner",
+    "h1": "Box‑Fit & Rotation Planner",
     "lede": "Try all rotations, see fit, empty volume, and dimensional weight.",
+    "recommendations": [
+      {
+        "blurb": "Right size, lower DIM.",
+        "name": "Variety box pack",
+        "url": "https://www.amazon.com/s?k=shipping+box+assortment"
+      }
+    ],
+    "slug": "box-fit-rotation-planner",
     "steps": [
       "Enter item size.",
       "Paste box sizes.",
       "Pick carrier mode and compute."
     ],
-    "calculator_component": "boxfit-planner",
-    "calculator_js": "boxfit-planner.js",
-    "calc_title": "Find best box",
-    "category": "Pro Tools",
     "tips": [
       "Smaller boxes reduce DIM charges.",
       "Add padding clearance when choosing a box."
     ],
-    "recommendations": [
-      {
-        "name": "Variety box pack",
-        "blurb": "Right size, lower DIM.",
-        "url": "https://www.amazon.com/s?k=shipping+box+assortment"
-      }
-    ]
+    "title": "Box‑Fit & Rotation Planner"
   },
   {
-    "slug": "tile-flooring-planner",
-    "title": "Tile & Flooring Planner",
+    "calc_title": "Plan layout",
+    "calculator_component": "tile-planner",
+    "calculator_js": "tile-planner.js",
+    "category": "Pro Tools",
     "description": "Coverage, cuts, and suggested boxes with waste.",
     "h1": "Tile & Flooring Planner",
     "lede": "Estimate tile count, stagger, and edge cuts.",
+    "recommendations": [
+      {
+        "blurb": "Consistent grout lines.",
+        "name": "Tile spacers",
+        "url": "https://www.amazon.com/s?k=tile+spacers"
+      }
+    ],
+    "slug": "tile-flooring-planner",
     "steps": [
       "Enter room size.",
       "Enter tile size and grout width.",
       "Choose waste and stagger pattern."
     ],
-    "calculator_component": "tile-planner",
-    "calculator_js": "tile-planner.js",
-    "calc_title": "Plan layout",
-    "category": "Pro Tools",
     "tips": [
       "Order extra for breakage and pattern matching.",
-      "Dry\u2011lay a small area to verify offsets."
+      "Dry‑lay a small area to verify offsets."
     ],
-    "recommendations": [
-      {
-        "name": "Tile spacers",
-        "blurb": "Consistent grout lines.",
-        "url": "https://www.amazon.com/s?k=tile+spacers"
-      }
-    ]
+    "title": "Tile & Flooring Planner"
   },
   {
-    "slug": "batch-unit-converter",
-    "title": "Batch Unit Converter",
+    "calc_title": "Batch convert",
+    "calculator_component": "batch-converter",
+    "calculator_js": "batch-converter.js",
+    "category": "Pro Tools",
     "description": "Convert dozens of values in one go.",
     "h1": "Batch Unit Converter",
     "lede": "Paste a list and get bulk conversions to the unit you need.",
+    "recommendations": [],
+    "slug": "batch-unit-converter",
     "steps": [
       "Paste values with units.",
       "Choose the target unit.",
       "Convert and copy the result."
     ],
-    "calculator_component": "batch-converter",
-    "calculator_js": "batch-converter.js",
-    "calc_title": "Batch convert",
-    "category": "Pro Tools",
     "tips": [
       "Use short units like ft, in, cm, m.",
       "Export results into spreadsheets."
     ],
-    "recommendations": []
+    "title": "Batch Unit Converter"
   },
   {
-    "slug": "3d-print-spool-manager",
-    "title": "3D Print Spool Manager",
+    "calc_title": "Manage spools",
+    "calculator_component": "spool-manager",
+    "calculator_js": "spool-manager.js",
+    "category": "Pro Tools",
     "description": "Track remaining grams and length per spool (local only).",
     "h1": "3D Print Spool Manager",
-    "lede": "Estimate remaining meters and log usage\u2014saved in your browser.",
+    "lede": "Estimate remaining meters and log usage—saved in your browser.",
+    "recommendations": [],
+    "slug": "3d-print-spool-manager",
     "steps": [
       "Add or update a spool with weight and material.",
       "Log grams used per print.",
       "Watch remaining meters update."
     ],
-    "calculator_component": "spool-manager",
-    "calculator_js": "spool-manager.js",
-    "calc_title": "Manage spools",
-    "category": "Pro Tools",
     "tips": [
       "Weigh empty spools for accuracy.",
       "Material density varies by brand."
     ],
-    "recommendations": []
+    "title": "3D Print Spool Manager"
   },
   {
-    "slug": "pc-airflow-psu-estimator",
-    "title": "PC Airflow & PSU Estimator",
+    "calc_title": "Estimate build",
+    "calculator_component": "pc-planner",
+    "calculator_js": "pc-planner.js",
+    "category": "Pro Tools",
     "description": "Quick airflow sufficiency check and PSU headroom.",
     "h1": "PC Airflow & PSU Estimator",
     "lede": "Estimate intake CFM and recommended PSU wattage.",
+    "recommendations": [
+      {
+        "blurb": "Cross‑check vendor specs.",
+        "name": "PSU calculator",
+        "url": "https://www.amazon.com/s?k=psu+power+supply"
+      }
+    ],
+    "slug": "pc-airflow-psu-estimator",
     "steps": [
       "Enter component power draw.",
       "Enter fan count and CFM.",
       "Review airflow verdict and PSU size."
     ],
-    "calculator_component": "pc-planner",
-    "calculator_js": "pc-planner.js",
-    "calc_title": "Estimate build",
-    "category": "Pro Tools",
     "tips": [
-      "Aim for 20\u201330% PSU headroom.",
-      "High\u2011density filters reduce CFM."
+      "Aim for 20–30% PSU headroom.",
+      "High‑density filters reduce CFM."
     ],
-    "recommendations": [
-      {
-        "name": "PSU calculator",
-        "blurb": "Cross\u2011check vendor specs.",
-        "url": "https://www.amazon.com/s?k=psu+power+supply"
-      }
-    ]
+    "title": "PC Airflow & PSU Estimator"
   },
   {
-    "slug": "sheet-optimizer-2d",
-    "title": "Sheet Optimizer (2D)",
+    "calc_title": "Optimize layout",
+    "calculator_component": "sheet-optimizer-2d",
+    "calculator_js": "sheet-optimizer-2d.js",
+    "category": "Signature Apps",
     "description": "Kerf-aware cut planner for sheet goods with visual layout.",
     "h1": "Sheet Optimizer (2D)",
     "lede": "Paste part sizes and get a visual cut plan across sheets.",
+    "recommendations": [
+      {
+        "blurb": "Long, straight cuts.",
+        "name": "Track saw",
+        "url": "https://www.amazon.com/s?k=track+saw"
+      },
+      {
+        "blurb": "Clean edges, less tearout.",
+        "name": "Plywood blade",
+        "url": "https://www.amazon.com/s?k=plywood+blade"
+      }
+    ],
+    "slug": "sheet-optimizer-2d",
     "steps": [
       "Enter sheet size and kerf.",
       "Paste parts as `WxH x Qty`.",
       "Optimize and review the layout."
     ],
-    "calculator_component": "sheet-optimizer-2d",
-    "calculator_js": "sheet-optimizer-2d.js",
-    "calc_title": "Optimize layout",
-    "category": "Signature Apps",
     "tips": [
       "Group similar parts to simplify cuts.",
       "Add margin if your saw kerf varies."
     ],
-    "recommendations": [
-      {
-        "name": "Track saw",
-        "blurb": "Long, straight cuts.",
-        "url": "https://www.amazon.com/s?k=track+saw"
-      },
-      {
-        "name": "Plywood blade",
-        "blurb": "Clean edges, less tearout.",
-        "url": "https://www.amazon.com/s?k=plywood+blade"
-      }
-    ]
+    "title": "Sheet Optimizer (2D)"
   },
   {
-    "slug": "project-quote-builder",
-    "title": "Project Quote & BOM Builder",
-    "description": "Paste items, taxes, markup\u2014get a clean quote & CSV export.",
+    "calc_title": "Build quote",
+    "calculator_component": "quote-builder",
+    "calculator_js": "quote-builder.js",
+    "category": "Signature Apps",
+    "description": "Paste items, taxes, markup—get a clean quote & CSV export.",
     "h1": "Project Quote & BOM Builder",
     "lede": "Build estimates fast and export a ready-to-send CSV.",
+    "recommendations": [
+      {
+        "blurb": "Organize BOM picks.",
+        "name": "Label printer",
+        "url": "https://www.amazon.com/s?k=label+printer"
+      }
+    ],
+    "slug": "project-quote-builder",
     "steps": [
       "Paste items as `name, qty, unit`.",
       "Set tax/markup/discount.",
       "Export CSV or copy totals."
     ],
-    "calculator_component": "quote-builder",
-    "calculator_js": "quote-builder.js",
-    "calc_title": "Build quote",
-    "category": "Signature Apps",
     "tips": [
       "Use separate labor line-items.",
       "Save your common parts list in a note for reuse."
     ],
-    "recommendations": [
-      {
-        "name": "Label printer",
-        "blurb": "Organize BOM picks.",
-        "url": "https://www.amazon.com/s?k=label+printer"
-      }
-    ]
+    "title": "Project Quote & BOM Builder"
   }
 ]
