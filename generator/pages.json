@@ -1,13 +1,29 @@
 [
   {
-    "slug": "redirect-preflight",
-    "title": "Redirect Preflight — Offline Redirect CSV Checker",
-    "description": "Catch redirect loops, conflicting rules and chains before a website migration. Offline edition: $29 once, up to 20,000 rows.",
-    "h1": "Review your redirect map before the move",
-    "lede": "A local CSV preflight for SEO and website migration teams. Check structural problems, export a review report, and hand off candidate rules. Commercial disclosure: this product is sold by TinyToolsHub owner Jon Ireland.",
     "category": "Signature Apps",
+    "description": "Catch redirect loops, conflicting rules and chains before a website migration. Offline edition: $29 once, up to 20,000 rows.",
+    "h1": "Review your redirect map before developer handoff",
+    "lede": "A local CSV preflight for technical SEOs and small agencies combining inherited and new migration redirects. Check structural problems, export a review report, and hand off candidate rules. Commercial disclosure: this product is sold by TinyToolsHub owner Jon Ireland.",
+    "recommendations": [
+      {
+        "blurb": "Full HTML checker, sample CSV and instructions. Download after payment confirmation.",
+        "name": "Buy the offline edition — $29 once",
+        "url": "https://buy.stripe.com/5kQaEXcXygjG7D984abfO00"
+      },
+      {
+        "blurb": "Check the workflow before buying. No account needed.",
+        "name": "Check your full map free",
+        "url": "https://redirect-preflight-ji.silver-pika-6542.chatgpt.site/"
+      },
+      {
+        "blurb": "One-time software license; 14-day refund request policy.",
+        "name": "Purchase terms and refund requests",
+        "url": "https://redirect-preflight-ji.silver-pika-6542.chatgpt.site/terms"
+      }
+    ],
+    "slug": "redirect-preflight",
     "steps": [
-      "Try the free 25-row checker with a sample or your own CSV.",
+      "Check up to 20,000 rules free: all issue counts and 10 preview rows. Try full exports on the built-in example.",
       "For larger maps, buy the offline edition for $29 once. Checkout returns a private download page after successful payment.",
       "Unzip the product on a computer and open Redirect-Preflight.html in a desktop browser.",
       "Set your old and new site origins, load up to 20,000 rules / 5 MB, review findings, and export reports.",
@@ -19,23 +35,7 @@
       "Exact URLs and slash-prefixed paths are supported; wildcard rules and regex are not.",
       "The license covers your business and client projects. No subscription or API credits. Full refund requests within 14 days; see the purchase terms."
     ],
-    "recommendations": [
-      {
-        "name": "Buy the offline edition — $29 once",
-        "blurb": "Full HTML checker, sample CSV and instructions. Download after payment confirmation.",
-        "url": "https://buy.stripe.com/5kQaEXcXygjG7D984abfO00"
-      },
-      {
-        "name": "Try the free 25-row checker",
-        "blurb": "Check the workflow before buying. No account needed.",
-        "url": "https://redirect-preflight-ji.silver-pika-6542.chatgpt.site/"
-      },
-      {
-        "name": "Purchase terms and refund requests",
-        "blurb": "One-time software license; 14-day refund request policy.",
-        "url": "https://redirect-preflight-ji.silver-pika-6542.chatgpt.site/terms"
-      }
-    ]
+    "title": "Redirect Preflight — Offline Redirect CSV Checker"
   },
   {
     "calc_title": "Convert units",
